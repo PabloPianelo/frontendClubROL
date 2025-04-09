@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Tangerine:wght@400;700&display=swap');
 
 
-
+.vertical-timeline.vertical-timeline--two-columns:before {
+  background: linear-gradient(to right, #FFD700, #FF6347); /* color dorado */
+}
 @layer base {
   button{
     cursor: pointer;

@@ -7,7 +7,7 @@ function TOE() {
     <>
       <h2 className="text-center text-2xl font-bold mb-8">Línea de Tiempo - TOE de Águilas (Club Thorondor)</h2>
 
-      <VerticalTimeline>
+      <VerticalTimeline  className="vertical-timeline">
 
         <VerticalTimelineElement
           className="vertical-timeline-element--event"
