@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+
+
+@layer base {
+  button{
+    cursor: pointer;
+  }
+}
+@layer components {
+  .text-fantasy-gold {
+    font-family: 'Cinzel', serif;
+    
+    color: #FFD700; /* color dorado */
+    
+  }
+  .buttonHover {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .buttonHover:hover {
+    @apply brightness-80; /* Efecto hover de oscurecimiento */
+  }
+  .font-script {
+    font-family: 'Tangerine', cursive;
+    font-style: italic; /* Asegura que el texto esté en cursiva */
+    
+  }
+}
+
+
